@@ -9,12 +9,12 @@ function!
 Support "all" the [ANSI color codes](https://talyian.github.io/ansicolors/) by their name:
 
 - black
-- red
-- green
-- yellow
-- blue
-- magenta
-- cyan
+- <span style="color:red">red</span>
+- <span style="color:green">green</span>
+- <span style="color:yellow">yellow</span>
+- <span style="color:blue">blue</span>
+- <span style="color:magenta">magenta</span>
+- <span style="color:cyan">cyan</span>
 - white
 
 ## Functions
