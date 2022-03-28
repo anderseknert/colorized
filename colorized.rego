@@ -4,6 +4,11 @@
 # - Anders Eknert <anders@eknert.com>
 package colorized
 
+# Note: `opa fmt` will format the below into using the `\x` escape sequence,
+# which isn't really valid in Rego! This is about as esoteric as it can be though,
+# so I'm going to ignore that in this case. I rather like the manual formatting
+# better anyway :)
+
 _fg := {
     "black":    "\u001b[30m",
     "red":      "\u001b[31m",

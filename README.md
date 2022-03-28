@@ -1,4 +1,4 @@
-# rego-colorized
+# colorized
 
 Colorized output for the Rego
 [print](https://blog.openpolicyagent.org/introducing-the-opa-print-function-809da6a13aee)
