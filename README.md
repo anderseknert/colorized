@@ -83,3 +83,9 @@ print(rainbow("Double rainbows!!"))
 
 Resets the colors to the default. Only necessary when reset was disabled in the first place, using the
 object variant of `colorize`. You'll most likely won't need this.
+
+## Caveats
+
+* JSON (luckily!) does not support the escape sequences required for colorization, so this works only
+  for the `print` command - not values returned by OPA itself
+* This is only for fun. Don't use this for anything serious.
